@@ -1,10 +1,10 @@
-# Refactored Restaurant Billing System with OOP, Exception Handling, Discounts, and Save Feature
+
 import tkinter as tk
 from tkinter import messagebox, filedialog
 import random
 import time
 
-# =================== OOP Classes ======================
+# OOP Classes
 class MenuItem:
     def __init__(self, name, price):
         self.name = name
@@ -68,7 +68,7 @@ class Bill:
             file.close()
 
 
-# ==================== GUI Layer =====================
+# GUI Layer 
 class BillingSystemGUI:
     def __init__(self, root):
         self.root = root
